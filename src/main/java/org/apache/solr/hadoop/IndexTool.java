@@ -74,7 +74,6 @@ public abstract class IndexTool extends Configured implements Tool {
    * eventually
    */
   public int run(MapReduceIndexerToolArgumentParser.Options options) throws Exception {
-
     Instant programStart = Instant.now();
     
     if (options.fairSchedulerPool != null) {
